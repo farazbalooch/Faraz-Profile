@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faraz Ahmed | BS IT Student Portfolio</title>
+<meta name="description" content="Portfolio of Faraz Ahmed, BS IT student at the University of Balochistan. Web development, NLP and animal recognition.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Literata:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#top" class="logo">Faraz Ahmed</a>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="hero-text">
+      <p class="intro">Hello, I am</p>
+      <h1 class="detect">
+        <span class="box">Faraz Ahmed<span class="tag" id="tag">student: 0.98</span></span>
+      </h1>
+      <p class="lead">BS IT student at the University of Balochistan. I build websites and train language models, and I made a tool that recognizes animals in images.</p>
+      <div class="actions">
+        <a class="btn primary" href="#projects">See my projects</a>
+        <a class="btn" href="#contact">Contact me</a>
+      </div>
+    </div>
+    <div class="photo-frame">
+      <span class="photo-tag">faraz: 0.99</span>
+      <div class="photo" data-initials="FA">
+        <img src="images/profile.jpg" alt="Faraz Ahmed" onerror="this.remove()">
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About me</h2>
+    <p>I study Information Technology at the University of Balochistan, Quetta. I enjoy turning ideas into working software, from small web pages to machine learning models. I am currently learning how to train NLP models and building more web programs.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="grid">
+      <article class="card featured">
+        <h3>Animal Recognition Tool</h3>
+        <p>Upload an image and the tool identifies which animal is in it. My main university project.</p>
+        <ul class="chips"><li>Python</li><li>Image classification</li></ul>
+        <a href="https://github.com/YOUR-USERNAME/animal-recognition" target="_blank" rel="noopener">View code on GitHub</a>
+      </article>
+      <article class="card">
+        <h3>NLP Model Training</h3>
+        <p>Training and testing language models on text data for classification tasks.</p>
+        <ul class="chips"><li>Python</li><li>NLP</li></ul>
+        <a href="https://github.com/YOUR-USERNAME/nlp-project" target="_blank" rel="noopener">View code on GitHub</a>
+      </article>
+      <article class="card">
+        <h3>Web Programs</h3>
+        <p>A growing set of small web apps built with HTML, CSS and JavaScript.</p>
+        <ul class="chips"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+        <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">See all repositories</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills" id="skills-list"></div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Want to work together or just say hello? Send me a message.</p>
+    <p class="links">
+      <a href="mailto:your.email@example.com">your.email@example.com</a>
+      <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
+  </section>
+</main>
+
+<footer>© <span id="year"></span> Faraz Ahmed. University of Balochistan.</footer>
+<script src="script.js"></script>
+</body>
+</html>
